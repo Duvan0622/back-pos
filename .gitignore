@@ -1,0 +1,51 @@
+# Ignorar entorno virtual
+venv/
+env/
+.venv/
+.env/
+
+# Archivos de base de datos
+*.sqlite3
+
+!*/migrations/*.py
+
+
+
+# Archivos generados por Django
+*.log
+*.pot
+*.pyc
+*.pyo
+__pycache__/
+db.sqlite3
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+
+# Archivos de configuración de editor
+*.swp
+*~
+
+# Archivos de caché de Python
+*.pyc
+*.pyo
+
+# Archivos de cache de Django
+*.log
+*.pot
+
+# Archivos de configuración de Django
+*.env
+*.ini
+*.cfg
+*.json
+*.yml
+*.toml
+
+# Archivos de almacenamiento de sesiones y caché de Django
+*.cache
+*.sqlite3
+
+# Archivos de configuración de producción
+settings_prod.py
